@@ -1,0 +1,19 @@
+.visualisation {
+  margin: 20px;
+
+  &__table {
+    height: 200px;
+    width: 100%;
+  }
+
+  &__item {
+    width: 10px;
+    display: inline-block;
+    margin-right: 2px;
+    background-color: blue;
+
+    &--highlighted {
+      background-color: red;
+    }
+  }
+}
